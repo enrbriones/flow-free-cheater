@@ -21,7 +21,7 @@ jobs:
         npm run-script build
 
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: enrbriones/flow-free-cheater@releases/v3
       with:
         REACT_APP_BACKEND_URL: ${{ secrets.REACT_APP_BACKEND_URL }}
         BRANCH: gh-pages
