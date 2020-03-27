@@ -1,0 +1,15 @@
+export default{
+    ROJO: {value:1,color:'#D50000'},
+    AZUL: {value:2,color:'#304FFE'},
+    AMARILLO: {value:3,color:'#FFD600'},
+    VERDE: {value:4,color:'#008102'},
+    NARANJA: {value:5,color:'#FF6D00'},
+    CYAN: {value:6,color:'#00E5FF'},
+    ROSADO: {value:7,color:'#D500F9'},
+    ROJO_OSCURO: {value:8,color:'#8f2424'},
+    VIOLETA: {value:9,color:'#7F007F'},
+    BLANCO: {value:10,color:'white'},
+    GRIS: {value:11,color:'#A7A5A6'},
+    VERDE_CLARO: {value:12,color:'#02FD03'},
+    TRANSPARENTE: {value:0,color:'rgba(0, 0, 0, 0)'},
+}
