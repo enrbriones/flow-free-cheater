@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0375468ced34739a066f35774528b98c",
+    "revision": "60d7bdcc312e5527d7230f7641a09c34",
     "url": "/flow-free-cheater/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flow-free-cheater/static/css/2.67123b20.chunk.css"
   },
   {
-    "revision": "00effd4a6b1fcd7c3a93",
+    "revision": "667d7e7662a4ed0c1ed3",
     "url": "/flow-free-cheater/static/css/main.b5c2fb43.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flow-free-cheater/static/js/2.03ffdfdc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00effd4a6b1fcd7c3a93",
-    "url": "/flow-free-cheater/static/js/main.d991bafe.chunk.js"
+    "revision": "667d7e7662a4ed0c1ed3",
+    "url": "/flow-free-cheater/static/js/main.51998c84.chunk.js"
   },
   {
     "revision": "2f967c41a0b47e0684a8",
