@@ -7,7 +7,8 @@ const PanelAcciones = ({ matrix, changeMatrix, resetMatrix, esMatrixInicial, est
 
   const [disabled,setDisabled]= useState(true);
   // const url = "http://localhost:3001/api/solve";
-  const url = `${process.env.REACT_APP_BACKEND_URL}/api/solve`
+  // const url = `${process.env.REACT_APP_BACKEND_URL}/api/solve`
+  const url = `https://numberlink-solver.herokuapp.com/api/solve`
   const body = {
     matrix
   };

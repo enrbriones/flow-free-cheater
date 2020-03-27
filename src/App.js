@@ -10,7 +10,7 @@ import Footer from "./componentes/Footer";
 
 function App() {
 
-  console.log('variable: ',process.env.REACT_APP_BACKEND_URL)
+  // console.log('variable: ',process.env.REACT_APP_BACKEND_URL)
 
   const buildMatrix = (x, y) => {
     return Array(x)
