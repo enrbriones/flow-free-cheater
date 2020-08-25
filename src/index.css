@@ -30,7 +30,7 @@ a:hover{
 
 }
 
-.tablero{
+/* .tablero{
   display: block;
   background: black;
   display: flex;
@@ -45,17 +45,15 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+} */
 
-  /* align-items: stretch; */
-}
-
-.dot {
+/* .dot {
   height: 75%;
   width: 75%;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-}
+} */
 
 /* .dot {
   background: blue;
@@ -82,7 +80,7 @@ a:hover{
   justify-content:center; 
 } */
 
-.panelColores{
+/* .panelColores{
   width: 130px;
   display: flex;
   flex-wrap: wrap;
@@ -95,4 +93,4 @@ border: 1px red solid;
   width: 800px;
   display: flex;
   justify-content: center;
-}
+} */

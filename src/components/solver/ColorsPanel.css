@@ -1,0 +1,8 @@
+.colors-panel{
+    width: 130px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 20px;
+}

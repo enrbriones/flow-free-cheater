@@ -1,0 +1,6 @@
+.board{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
