@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/flow-free-cheater/precache-manifest.c08263bd61a87929a2aba4b2fd03e1db.js"
+  "/flow-free-cheater/precache-manifest.80d89d5fac8acb99729f9fe7ab76de2d.js"
 );
 
 self.addEventListener('message', (event) => {
