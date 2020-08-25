@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/flow-free-cheater/static/css/main.7d15a899.chunk.css",
-    "main.js": "/flow-free-cheater/static/js/main.497d5d99.chunk.js",
-    "main.js.map": "/flow-free-cheater/static/js/main.497d5d99.chunk.js.map",
+    "main.js": "/flow-free-cheater/static/js/main.454a1fae.chunk.js",
+    "main.js.map": "/flow-free-cheater/static/js/main.454a1fae.chunk.js.map",
     "runtime-main.js": "/flow-free-cheater/static/js/runtime-main.d25bae2f.js",
     "runtime-main.js.map": "/flow-free-cheater/static/js/runtime-main.d25bae2f.js.map",
     "static/css/2.67123b20.chunk.css": "/flow-free-cheater/static/css/2.67123b20.chunk.css",
     "static/js/2.6fca6352.chunk.js": "/flow-free-cheater/static/js/2.6fca6352.chunk.js",
     "static/js/2.6fca6352.chunk.js.map": "/flow-free-cheater/static/js/2.6fca6352.chunk.js.map",
     "index.html": "/flow-free-cheater/index.html",
-    "precache-manifest.80d89d5fac8acb99729f9fe7ab76de2d.js": "/flow-free-cheater/precache-manifest.80d89d5fac8acb99729f9fe7ab76de2d.js",
+    "precache-manifest.a71552057bb33c24816a7ab80eef2c9b.js": "/flow-free-cheater/precache-manifest.a71552057bb33c24816a7ab80eef2c9b.js",
     "service-worker.js": "/flow-free-cheater/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/flow-free-cheater/static/css/2.67123b20.chunk.css.map",
     "static/css/main.7d15a899.chunk.css.map": "/flow-free-cheater/static/css/main.7d15a899.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.67123b20.chunk.css",
     "static/js/2.6fca6352.chunk.js",
     "static/css/main.7d15a899.chunk.css",
-    "static/js/main.497d5d99.chunk.js"
+    "static/js/main.454a1fae.chunk.js"
   ]
 }
