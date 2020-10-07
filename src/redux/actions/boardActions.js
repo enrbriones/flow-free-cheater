@@ -37,8 +37,8 @@ export const setDefault = () => ({
 
 export const solve = () => {
   return async (dispatch, getState) => {
-    const url = "http://localhost:4000/api/solve";
-    // const url = `${process.env.REACT_APP_BACKEND_URL}/api/solve`
+    // const url = "http://localhost:4000/api/solve";
+    const url = `${process.env.REACT_APP_BACKEND_URL}`
     // const url = `https://numberlink-solver.herokuapp.com/api/solve/`;
     // const url = `https://numberlink-solver.herokuapp.com/api/solve/github-pages`;
     dispatch(startLoading());

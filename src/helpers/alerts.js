@@ -1,11 +1,14 @@
-export const loadingAlert =(Swal)=>{
+export const loadingAlertPleaseWait =(Swal)=>{
+  loadingAlert(Swal, 'Solving...', 'Please wait to get the solution.')
+}
+
+export const loadingAlert =(Swal, title, html)=>{
   Swal.fire({
-    title: 'Solving...',
-    html: 'Please wait to get the solution.',
+    title,
+    html,
     allowOutsideClick: false,
     onBeforeOpen: () => {
       Swal.showLoading()
-    }
-  
+    }  
   })
 }
