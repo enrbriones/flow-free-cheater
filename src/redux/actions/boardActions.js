@@ -2,12 +2,6 @@ import { types } from '../types/types';
 import {formatHeaders} from '../../helpers/scripts'
 import { startLoading, finishLoading, setInfoMessage, setErrorMessage } from './uiActions';
 
-// export const setMatrixElement = (x,y,value) => {
-//     return (dispatch, getState)=>{
-//         dispatch(setMatrix(x,y,value))
-//     }
-// }
-
 export const setMatrixElement = (x, y, value) => ({
   type: types.boardSetElement,
   payload: {
@@ -37,10 +31,9 @@ export const setDefault = () => ({
 
 export const solve = () => {
   return async (dispatch, getState) => {
-    // const url = "http://localhost:4000/api/solve";
+
     const url = `${process.env.REACT_APP_BACKEND_URL}`
-    // const url = `https://numberlink-solver.herokuapp.com/api/solve/`;
-    // const url = `https://numberlink-solver.herokuapp.com/api/solve/github-pages`;
+
     dispatch(startLoading());
     const { matrix } = getState().board;
     const format = formatHeaders(matrix)
