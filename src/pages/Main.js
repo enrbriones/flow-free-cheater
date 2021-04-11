@@ -7,6 +7,7 @@ import { Loading } from '../components/common/Loading';
 import { Error } from '../components/common/Error';
 
 export const Main = () => {
+  //Sólo un comentario
   return (
     <div className='main'>
       <Loading />
