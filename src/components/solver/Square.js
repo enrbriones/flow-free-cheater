@@ -7,7 +7,7 @@ import { Circle } from './Circle';
 import { useDrop } from 'react-dnd';
 import itemTypes from '../../helpers/itemTypes';
 
-export const Square = ({ xPos, yPos, currentValue, children }) => {
+export const Square = ({ xPos, yPos, currentValue, className, children }) => {
   const {
     length: rows,
     0: { length: cols },
@@ -41,8 +41,8 @@ export const Square = ({ xPos, yPos, currentValue, children }) => {
       }}
       onClick={() => dispatch(setMatrixElement(xPos, yPos, 0))}
     >
-      {children}
-      <Circle value={currentValue} />
+      {/* {children} */}
+      <Circle value={currentValue} className={className} />
     </div>
   );
 };

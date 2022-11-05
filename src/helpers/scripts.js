@@ -1,8 +1,8 @@
 
-export const buildMatrix = (x, y) => {
+export const buildMatrix = (x, y, val = 0) => {
     return Array(x)
       .fill()
-      .map(() => Array(y).fill(0));
+      .map(() => Array(y).fill(val));
   };
 
 
@@ -24,3 +24,5 @@ export const formatHeaders = (matrix) => {
   };
   return format;
 }
+
+export const deepCloneArray = (items) => items.map(item => Array.isArray(item) ? deepCloneArray(item) : item);

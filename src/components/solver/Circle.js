@@ -7,7 +7,7 @@ import { setMatrixElement } from '../../redux/actions/boardActions';
 import { useDispatch } from 'react-redux';
 import './Circle.css'
 
-export const Circle = ({ value }) => {
+export const Circle = ({ value, className = 'dot' }) => {
   const setColorNodo = () => {
     const obj = Object.keys(colors).filter((x) => colors[x].value === value);
     return colors[obj];
@@ -32,10 +32,9 @@ export const Circle = ({ value }) => {
 
   const opacity = isDragging ? 0.4 : 1;
   const display = color.value === 0 ? 'none' : 'inherit';
-
   return (
     <span
-      className='dot'
+      className={className}
       ref={drag}
       style={{ opacity, background: color.color, display }}
     ></span>

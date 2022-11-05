@@ -5,20 +5,161 @@
     border-radius: 50%;
     display: inline-block;
   }
+/* FINAL NORTH */
+.N {
+  height: 75%;
+  width: 75%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+  .N:after {
+  content: "";
+  background: inherit;
+  width: 44%;
+  height: 66.5%;
+  position: relative;
+  top:-17%;
+  left:28%;
+}
+/* FINAL SOUTH */
+.S {
+  height: 75%;
+  width: 75%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+  .S:after {
+  content: "";
+  background: inherit;
+  width: 44%;
+  height: 66.5%;
+  position: relative;
+  bottom:-50%;
+  left:28%;
+}
+/* FINAL EAST */
+.E {
+  height: 75%;
+  width: 75%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+  .E:after {
+  content: "";
+  background: inherit;
+  width: 66.5%;
+  height: 44%;
+  position: relative;
+  top:28%;
+  left:50%;
+}
+/* FINAL WEST */
+.W {
+  height: 75%;
+  width: 75%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+  .W:after {
+  content: "";
+  background: inherit;
+  width: 66.5%;
+  height: 44%;
+  position: relative;
+  top:28%;
+  right:17%;
+}
 
-  /* .dot {
-  background: blue;
+/* NORTH EAST */
+  .NE {
   width: 33%;
   height: 66.5%;
   position: relative;
   top:-17%;
 }
-.dot:after {
+.NE:after {
   background: inherit;
   content: "";
   width: 152%;
   height: 50%;
-   left: 50%; 
+   left: 50%;  
   position: absolute;
   top: 50%; 
-}  */
+} 
+/* NORTH WEST */
+  .NW {
+  width: 33%;
+  height: 66.5%;
+  position: relative;
+  top:-17%;
+}
+.NW:after {
+  background: inherit;
+  content: "";
+  width: 152%;
+  height: 50%;
+  right: 50%;  
+  position: absolute;
+  top: 50%; 
+} 
+
+/* EAST WEST */
+.EW {
+  width: 100%;
+  height: 33.3%;
+  position: relative;
+}
+
+/* SOUTH EAST */
+.SE {
+  width: 66.6%;
+  height: 33.3%;
+  position: relative;
+  left: 16%;
+}
+.SE:after {
+  background: inherit;
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top:100%;
+}
+
+/* SOUTH WEST */
+.SW {
+  width: 66.6%;
+  height: 33.3%;
+  position: relative;
+  left: -16%;
+}
+.SW:after {
+  background: inherit;
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top:100%;
+  left: 50%;
+
+}
+
+/* NORTH SOUTH */
+.NS {
+  width: 33%;
+  height: 66.5%;
+  position: relative;
+  top:-17%;
+}
+.NS:after {
+  background: inherit;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%; 
+} 

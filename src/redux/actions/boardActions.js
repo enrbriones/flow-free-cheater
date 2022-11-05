@@ -47,17 +47,17 @@ export const solve = () => {
           dispatch(changeMatrix(mat.solution));
         }
         if (mat.error) {
-          console.log('Error',mat.error);
+          // console.log('Error',mat.error);
           dispatch(setErrorMessage(mat.error))
         }
         
         if (mat.info) {
-          console.log('Info',mat.info);
+          // console.log('Info',mat.info);
           dispatch(setInfoMessage(mat.info))
         }
       })
       .catch((error) => {
-        console.log(error);
+        // console.log(error);
         dispatch(setErrorMessage(error))
       })
       .finally(() => {
